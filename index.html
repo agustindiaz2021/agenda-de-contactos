@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <style>
+        /* Agregar tus estilos aquí */
+    </style>
+</head>
+<body>
+    <h1>Agenda de Contactos</h1>
+    <div>
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="number" id="phone" placeholder="Teléfono" required>
+        <button onclick="addContact()" class="add">Agregar</button>
+    </div>
+    <ul id="contact-list">
+        <!-- Los contactos se mostrarán aquí -->
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
