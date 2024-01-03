@@ -12,11 +12,15 @@
 <body>
     <h1>Agenda de Contactos</h1>
     <div>
+
+    </div>
+        <input type="text" id="search" placeholder="Buscar por nombre">
+        <button onclick="searchContact()" class="buscar">Buscar</button>
+    <div>
         <input type="text" id="name" placeholder="Nombre" required>
         <input type="number" id="phone" placeholder="Teléfono" required>
         <button onclick="addContact()" class="add">Agregar</button>
-        <input type="text" id="search" placeholder="Buscar por nombre">
-        <button onclick="searchContact()" class="buscar">Buscar</button>
+        
     </div>
     
     <ul id="contact-list">

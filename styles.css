@@ -1,32 +1,63 @@
 body {
-     text-align: center;
-    background-color: rgba(130, 190, 101, 0.532);
-    font-family: Arial, sans-serif;
-    margin: 40px;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2; /* Cambié el color de fondo a un tono ligeramente más oscuro */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
 }
 
 div {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#search{
+    margin-bottom: 1rem
+}
+
+input, button {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 button {
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 0.5rem #0c170c; /* Agregué una sombra verde a los botones */
 }
 
-.add {
-    background-color: yellowgreen;
+button:hover{
+    box-shadow: 0.1rem 0.1rem 0.5rem #d3d3d3;
 }
 
-.delete {
-background-color: crimson;
+button.editar {
+    background-color: #2196F3;
 }
 
-.buscar {
-    background-color: cornflowerblue;
-}
-
-.editar {
-    background-color:yellow;
+button.delete {
+    background-color: #f44336;
 }
